@@ -1,0 +1,9 @@
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details-view>p>span {
+color: red;
+}

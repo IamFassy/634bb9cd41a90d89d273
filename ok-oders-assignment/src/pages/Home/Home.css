@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+}
+
+.home-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-input>input {
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.home-input>button{
+    background-color: red;
+    font-size: 16px;
+    border:none;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #FFF;
+}
+
+.submit-button {
+width: 150px;
+font-size: 16px;
+border-radius: 5px;
+padding: 5px 10px;
+border: black 1px solid;
+}
+
+.submit-disabled {
+    width: 150px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
