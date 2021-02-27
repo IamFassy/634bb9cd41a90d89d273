@@ -36,6 +36,7 @@ const Home = (props) => {
                         fetchAsteroidDetails(data.near_earth_objects[0].id)
                     }
                 }
+
                 else {
                     alert("There was an error fetching random id.")
                 }
@@ -56,8 +57,11 @@ const Home = (props) => {
                         details: data
                     })
                 }
-                else {
+                else if (res.status === 404) {
                     alert("No asteroids exists for the given id.")
+                }
+                else {
+                    alert("There was an error fetching random id.")
                 }
             })
             .catch((err) => {
